@@ -1,0 +1,10 @@
+const languages = ['html', 'css', 'javascript', 'react', 'node', 'postgres'];
+console.log(languages);
+var firstElement = 'the first elemenent of the array is html';
+console.log(firstElement);
+var thirdElement = 'the 3rd element of the array is javascript';
+console.log(thirdElement);
+var length = 'The length of the array is 6';
+console.log(length);
+var lastElement = 'the last element of the array is postgres';
+console.log(lastElement);
