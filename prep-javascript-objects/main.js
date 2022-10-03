@@ -1,14 +1,16 @@
-const person = {
-  firstName: 'Gabrielle Ramos',
+
+var Gabrielle = {
+  firstName: 'Gabrielle',
   lastName: 'Ramos',
-  hobby: 'baking',
-  job: 'student',
-  previousJob: 'sales'
+  hobby: 'baking'
 };
-console.log(person);
-var fullName = ' The persons name is: Gabrielle Ramos';
-console.log(fullName);
-var job = 'The persons current job is: student';
-console.log(job);
-var previousJob = 'The persons previous job is: sales';
-console.log(previousJob);
+
+var fullName = Gabrielle.firstName + '' + Gabrielle.lastName;
+
+console.log("The person's name is:", fullName + '.');
+Gabrielle.job = 'student';
+console.log("The person's job is:" + Gabrielle.job + '.');
+
+Gabrielle.previousJob = 'sales';
+console.log("The person's previous job is: " + Gabrielle.previousJob + '.');
+console.log('The complete person object: ', Gabrielle);
