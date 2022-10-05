@@ -13,10 +13,10 @@ var HoursToMinutes = convertHoursToMinutes(2);
 console.log('HourstoMinutes:', HoursToMinutes);
 
 function getGreeting(name) {
-  var result = ('hello world');
+  var result = 'Hello' + name + '!';
   return result;
 }
-var greeting = getGreeting('Hello World');
+var greeting = getGreeting('Gabrielle');
 console.log('greetings:', greeting);
 
 function addAndMultiplyBy5(num1, num2) {
